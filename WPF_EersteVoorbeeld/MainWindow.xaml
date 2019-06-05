@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPF_EersteVoorbeeld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_EersteVoorbeeld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btnResultaten" Content="Resultaten" HorizontalAlignment="Left" Margin="119,202,0,0" VerticalAlignment="Top" Width="228" Height="58" Click="btnResultaten_Click" />
+        <Label Content="Klik op de knop om de resultaten te bekijken van verschillende mensen" HorizontalAlignment="Left" Height="44" Margin="56,70,0,0" VerticalAlignment="Top" Width="392"/>
+
+    </Grid>
+</Window>
